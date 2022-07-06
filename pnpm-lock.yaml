@@ -1,8 +1,8 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
-  '@lezer/generator': ~0.15.1
-  '@lezer/lr': ~0.15.2
+  '@lezer/generator': ^1.0.0
+  '@lezer/lr': ^1.0.0
   '@rollup/plugin-node-resolve': ~13.0.4
   glob: ~7.1.7
   npm-run-all: ~4.1.5
@@ -11,10 +11,10 @@ specifiers:
   watchlist: ~0.3.1
 
 dependencies:
-  '@lezer/lr': 0.15.2
+  '@lezer/lr': 1.2.0
 
 devDependencies:
-  '@lezer/generator': 0.15.1
+  '@lezer/generator': 1.1.0
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.56.3
   glob: 7.1.7
   npm-run-all: 4.1.5
@@ -24,21 +24,21 @@ devDependencies:
 
 packages:
 
-  /@lezer/common/0.15.5:
-    resolution: {integrity: sha512-ufcjclusHXGdhp4gSPbPD7sUd38SgOej7m5tAEuG2tNPzqzV0d1vwwLh57R6IwW79ml2mb3tUjAoDfqI7v1HEw==}
+  /@lezer/common/1.0.0:
+    resolution: {integrity: sha512-ohydQe+Hb+w4oMDvXzs8uuJd2NoA3D8YDcLiuDsLqH+yflDTPEpgCsWI3/6rH5C3BAedtH1/R51dxENldQceEA==}
 
-  /@lezer/generator/0.15.1:
-    resolution: {integrity: sha512-OlG6ogwrTUeCsKVzPjXX5cFLT3XGESZY75Ust7DLMwmEgH1Awu/E4PGMFQZeTfI5lBWVo10reqXowiOhNKwOYQ==}
+  /@lezer/generator/1.1.0:
+    resolution: {integrity: sha512-o8LRCpckMKzCRn/uSybiZZG/gXNP8ETTutOAD4VOvuSzB91LO/u3vC7j9PBprr1Yq92x1INMKfX6S7a0YI7Sig==}
     hasBin: true
     dependencies:
-      '@lezer/common': 0.15.5
-      '@lezer/lr': 0.15.2
+      '@lezer/common': 1.0.0
+      '@lezer/lr': 1.2.0
     dev: true
 
-  /@lezer/lr/0.15.2:
-    resolution: {integrity: sha512-gkQUkKCAw/zxOiTCGhjctV/C+FPmfwqXscM9EGgcYhUZewkLu2AsEl2Vlcral7xtDU0t6xwakT6Fw5jlMvMX6Q==}
+  /@lezer/lr/1.2.0:
+    resolution: {integrity: sha512-TgEpfm9br2SX8JwtwKT8HsQZKuFkLRg6g+IRxObk9nVKQLKnkP3oMh+QGcTBL9GQsfQ2ADtKPbj2iGSMf3ytiA==}
     dependencies:
-      '@lezer/common': 0.15.5
+      '@lezer/common': 1.0.0
 
   /@rollup/plugin-node-resolve/13.0.4_rollup@2.56.3:
     resolution: {integrity: sha512-eYq4TFy40O8hjeDs+sIxEH/jc9lyuI2k9DM557WN6rO5OpnC2qXMBNj4IKH1oHrnAazL49C5p0tgP0/VpqJ+/w==}
